@@ -13,7 +13,7 @@
 </div>
 <br/>
 
-<label for="symptoms"><b>Lisätiedot</span></b></label>
+<label for="symptoms"><b><span>Lisätiedot:</span></b></label>
 <textarea rows = "2" cols = "50" name = "givenOireet"></textarea>
 
 <button type="submit" name="submitAddTriggers" id="button1">Tallenna & lisää laukaisijat</button>
