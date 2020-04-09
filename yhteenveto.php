@@ -15,7 +15,7 @@ $currentUserID=$tulosYhteenveto[0];
 $dataViite['userID'] = $currentUserID;
 $sqlViite = "SELECT userSex, userHeight, userDOB FROM `users` WHERE userID = :userID";
 $kyselyViite=$DBH->prepare($sqlViite);
-$kyselyViite->execute($dataViite);				
+$kyselyViite->execute($dataViite);
 
 echo ("<h4>PEF-mittauksen tavoitearvosi on:<br/>");
 
@@ -52,7 +52,6 @@ while	($row=$kyselyViite->fetch()){
         //echo("Viitearvot määritellään iän, sukupuolen ja pituuden perusteella.<br/>");
         //echo("Viitearvot perustuvat EU standardiin: EU EN-13826 [l/min]");
         // vuorokausivaihtelu: 100 x (suurin PEF- pienin PEF) / 1/2x (suurin PEF+ pienin PEF)
-        // värikoodit: jos yli 15% huonompi kuin viitearvo -> keltainen PEF-tulos?
 
     }
 //echo("</table><br/>");

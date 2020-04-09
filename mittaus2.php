@@ -23,6 +23,8 @@
 <!-- Tulostetaan ruudulle 3 viimeisintä mittausta -->
 <?php include("pefcodes/table.php"); ?>
 
+<?php include("includes/ifooter.php"); ?>
+
 <?php } ?>
 
 </body>

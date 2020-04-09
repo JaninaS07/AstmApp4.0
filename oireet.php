@@ -175,7 +175,7 @@ if(isset($_POST['submitOireet'])) {
 }
         
 ?>
-<main>
+
 <?php
     // sql kyselyt
 $dataOireet['userID']=$currentUserID1;
@@ -183,7 +183,7 @@ $sqlOireet="SELECT * FROM `oireet`
 WHERE userID = :userID ORDER BY oireDate DESC LIMIT 3";
     $kyselyOireet=$DBH->prepare($sqlOireet);				
     $kyselyOireet->execute($dataOireet);
-    echo ("<p><h3>Edelliset merkinnät:</h3></p>");
+    echo ("<h3>Edelliset merkinnät:</h3>");
 
        echo("<table>
             <tr>
