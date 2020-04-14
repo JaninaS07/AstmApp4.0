@@ -12,7 +12,7 @@
 <?php include("pefcodes/pefmeasurements.php"); ?>
 
 <!-- PEF-session unset-näppäin -->
-<?php include("pefcodes/pefsessionunset.php"); ?>
+<?php /* include("pefcodes/pefsessionunset.php"); */?>
 
 <!-- PEF-tiedonsiirto tietokantaan -->
 <?php include("pefcodes/databasetransfer.php"); ?>
