@@ -1,6 +1,6 @@
 <form method="POST">
 <h2>Valitse oireet:</h3>
-<h5 class="justified">Valitse alla olevasta listasta parhaiten tilannettasi kuvaavat oireet. Mikäli sinua vaivaava astmaoire ei löydy listalta, voit merkitä oireen vapaaseen tekstikenttään.</h5>
+<h5 class="justified">Valitse alla olevasta listasta parhaiten tilannettasi kuvaavat oireet. </h5>
 
 <div class="centered">
 <div class="leftaligned">

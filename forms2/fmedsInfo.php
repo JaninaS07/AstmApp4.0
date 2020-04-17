@@ -14,5 +14,3 @@
         
 
         <button type="submit" form="mittaustyyppi" name="submitAnswer" id="button1">Jatka</button>
-
-    	</form>

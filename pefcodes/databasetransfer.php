@@ -1,7 +1,7 @@
 
 <?php
 //kirjautuneen käyttäjän userID?
-   $data3['email'] = $_SESSION['suserEmail'];
+  $data3['email'] = $_SESSION['suserEmail'];
    $sql3 = "SELECT userID FROM users where userEmail =  :email";
    $kysely3=$DBH->prepare($sql3);
    $kysely3->execute($data3);
@@ -26,8 +26,8 @@
         unset($_SESSION['4th']);
         unset($_SESSION['5th']);
         unset($_SESSION['medsInfo']);
-          //Palataan takaisin tälle sivulle
-          header("Location: index.php");
+          //Palataan yhteenveto-sivulle
+          header("Location: yhteenveto.php");
       } catch(PDOException $e) {
        file_put_contents('log/DBErrors.txt', 'index.php: '.$e->getMessage()."\n", FILE_APPEND);
       }
