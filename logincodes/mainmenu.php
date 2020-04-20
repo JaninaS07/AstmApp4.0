@@ -31,5 +31,13 @@ $_SESSION['userID'] = $currentUserID;
 </form>
 
 <form method="post" action="yhteenveto.php">
- <button type="submit" id="button2" class="buttoncontainer"><i class="fas fa-file-medical-alt"></i><span class="buttontext">Yhteenveto</span></button>
+ <button type="submit" id="button2" class="buttoncontainer"><i class="fas fa-file-medical-alt"></i><span class="buttontext">Yhteenveto PEF</span></button>
+</form>
+
+<form method="post" action="yhteenvetoOireet.php">
+ <button type="submit" id="button2" class="buttoncontainer"><i class="fas fa-file-medical-alt"></i><span class="buttontext">Yhteenveto Oireet</span></button>
+</form>
+
+<form method="post" action="infoLinkit.php">
+ <button type="submit" id="button2" class="buttoncontainer"><i class="fas fa-info"></i><span class="buttontext">Info & Testi</span></button>
 </form>

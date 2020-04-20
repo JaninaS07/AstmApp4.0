@@ -4,7 +4,10 @@
 //Käyttäjän tila
 if($_SESSION['sloggedIn']=="yes"){
 
-    ?><a href="logOutUser.php">Kirjaudu ulos</a> <a href="index.php">Päävalikko</a>
+    ?><a href="logOutUser.php">Kirjaudu ulos</a> 
+    <a href="comingSoon.php">Uutta</a>
+    <a href="index.php">Päävalikko</a>
+    <a href="changePwd.php">Vaihda salasana</a>
     
     <?php include("forms/flanguage.php");?>
 

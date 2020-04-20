@@ -167,7 +167,7 @@ if(isset($_POST['submitOireet'])) {
       unset($_SESSION['check_list']);
       unset($_SESSION['check']);
       //Palataan yhteenveto-sivulle
-      header("Location: index.php");
+      header("Location: yhteenvetoOireet.php");
     }catch(PDOException $e){
         echo "Tallennusvirhe: " . $e->getMessage(); 
         file_put_contents("DBErrors.txt", "DB saving: ".$e->getMessage()."\n", FILE_APPEND);
